@@ -1,0 +1,97 @@
+<!--HTML boilerplate-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Inputs types -->
+    <h1>Inputs types</h1>
+    <label for="">Text</label>
+    <input type="text">
+    <label for="">Date</label>
+    <input type="date">
+    <label for="">Submit</label>
+    <input type="submit">
+    <label for="">File</label>
+    <input type="file">
+    <label for="">Radio</label>
+    <input type="radio">
+    <label for="">Search</label>
+    <input type="search">
+    <label for="">Range</label>
+    <input type="range">
+    <label for="">Button</label>
+    <input type="button">
+    <label for="">Reset</label>
+    <input type="reset">
+    <label for="">Color</label>
+    <input type="color">
+    <label for="">Checkbox</label>
+    <input type="checkbox">
+    <label for="">Password</label>
+    <input type="password">
+    <br>
+    <h1>Span, Dispaly and Visibility</h1>
+    <p>If you want to change just a part of a line/sentence you can use an inline element, the <span>span</span></p>
+    <br>
+    <p class="inline-block">Using <span>inline-block display</span> you can adapt the span width and share the same line
+    </p>
+    <br>
+    <p>You can set display has None and the element will disappear as if it never existed</p>
+    <p style="display:None;">Disappeared</p>
+    <br>
+    <p>The Visibility attribiute keep the space of the element</p>
+    <p class="visibility">Hidded</p>
+    <p>if you need</p>
+    <br>
+    <h1>CSS Positioning</h1>
+    <ol>
+        <li>Content is everithing</li>
+        <li>Order comes from code:
+            <ul>
+                <li>Diplay will follow code order</li>
+            </ul>
+        </li>
+        <li>Children sits on Parents
+            <ul>
+                <li>children elemnt style will precede</li>
+            </ul>
+        </li>
+    </ol>
+    <br>
+    <h3>Position types</h3>
+    <ol>
+        <li>Static: is by default.</li>
+        <li>Relative:
+            <ul>
+                <li style="position:relative ; left: 11px">allows you to change Coordinates(top, bottom, left, right)
+                </li>
+                <li>The change doesn't affects/change others elements</li>
+            </ul>
+        </li>
+        <li>Absolute: 
+            <ul>
+                <li>you give a margin to it's parent element.</li>
+                <li style="position: absolute; right: 60px;">So if you set a right:60px the element will move to the right side with a 60px margin</li>
+                <li>Affects the others elements as if the changed element was deleted</li>
+            </ul>
+        </li>
+        <li>Fixed: 
+            <ul>
+                <li>The element it doesn't move from it's position.</li>
+            </ul>
+        </li>
+    </ol>
+    <div class="red"></div>
+    <div class="blue"></div>
+    <div class="yellow"></div>
+</body>
+
+</html>

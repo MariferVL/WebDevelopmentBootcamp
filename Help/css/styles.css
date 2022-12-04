@@ -1,0 +1,51 @@
+p{
+    background-color: aliceblue;
+    width: 200px;
+    display: inline;
+    font-size: 22px;
+}
+span{
+    background-color:aqua ;
+    width: 200px;
+}
+
+.inline-block{
+    background-color: aliceblue;
+    width: 1000px;
+    display: inline-block;
+}
+
+.visibility{
+    background-color: aliceblue;
+    width: 1000px;
+    visibility: hidden;
+}
+
+.red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    top: 958px;
+
+}
+
+.blue{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 100px;
+    top: 858px;
+
+}
+
+.yellow{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    left: 0;
+
+}

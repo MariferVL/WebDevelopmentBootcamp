@@ -1,0 +1,28 @@
+body {
+    background-color: #c9bdf272;
+
+
+    
+} 
+div{
+    background-image:url("images/purple-mountain.jpg");
+    display:flex;
+    opacity: 0.6;
+    
+
+}
+.profile_title{
+    padding: 0 0 03cm;
+    font-size: 3cm;
+    text-align: center;
+    display:flex;
+    line-height: 100px
+}
+
+
+
+/* Options */
+/* 
+background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("../../media/examples/lizard.png");
+ */
