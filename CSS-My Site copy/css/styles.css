@@ -2,15 +2,18 @@ body {
     margin: 0;
     text-align: center;
     font-family:century;
+    background: rgb(196,231,245);
+    background: linear-gradient(9deg, rgba(196,231,245,1) 0%, rgba(252,254,254,1) 98%, rgba(255,255,255,1) 100%); 
 } 
-
+/*     background-color:#89cfeb41;
+ */
 .top-container{
-    background-color:rgba(135, 207, 235, 0.256);
-    padding-top: 11px;
+    padding-top: 0.5rem;
 }
 
 .s_cloud{
     width: 8%;
+    margin-top: 3%;
 }
 
 .m_cloud{
@@ -18,37 +21,94 @@ body {
 }
 
 .l_cloud{
-    width: 22%;
+    width: 18%;
     height: 13%;
     position: absolute;
-    left: 3%;
-    top: 44%;
+    left: 8%;
+    top: 55%;
 }
 
 .r_cloud{
-    width: 22%;
+    width: 18%;
     height: 11%;
     position: absolute;
-    right: 3%;
-    top: 22%;
+    right: 8%;
+    top: 44%;
 }
 
+
+
+/* font-size 16px(static) = 100%(dinamic) = 1 em(dinamic)
+  px * 6.25 = %   
+  font-size is heritable --> parent size + child size
+  rem --> root em , ignores inheritance
+ */
 .profile_title{
-    font-size: 66px;
-    margin-top: 0;
+    font-size: 4.124rem;
+    margin-top: 1.37rem;
     font-family: 'Klee One', cursive;
+    color: #4DC5D6;
+
 }
 
 .am{
-    color: azure;
+    color: #33aff2 ;
+    font-weight: normal;
+
+}
+
+.me{
+    font-size: 1.37rem;
+    font-family: 'Special Elite', cursive;
+    color: #33aff2;
+    width: 22%;
+    margin: 0 auto 33px 44%;
+    text-align: left;
+
+}
+
+.tree{
+    width: 33%;
+    opacity: 0.9;
+}
+
+h2{
+    font-size: 1.37rem;
+    margin-top: 0;
+    font-family: 'Klee One', cursive;
+    color: #4DC5D6 ;
 }
 
 p{
-    font-size: 22px;
-    margin-top: 0;
+    color: #29aed2;
     font-family: 'Special Elite', cursive;
+    text-align: left;
+
 }
 
+.profile_img{
+    border-radius: 50%;
+    width: 11%;
+}
+
+.skills_img {
+    border-radius: 50%;
+    width: 33%;
+
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+
+}
+
+a, h4{
+    color:  #8FB241;
+    font-family: 'Klee One', cursive;
+
+}
 
 
 
