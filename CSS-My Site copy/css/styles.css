@@ -1,26 +1,28 @@
 body {
     margin: 0;
     text-align: center;
-    font-family:century;
-    background: rgb(196,231,245);
-    background: linear-gradient(9deg, rgba(196,231,245,1) 0%, rgba(252,254,254,1) 98%, rgba(255,255,255,1) 100%); 
-} 
-/*     background-color:#89cfeb41;
- */
-.top-container{
-    padding-top: 0.5rem;
+    font-family: century;
+    color: #40514E;
 }
 
-.s_cloud{
+/*     background-color:#89cfeb41;
+ */
+.top-container {
+    background: rgb(196, 231, 245);
+    background: linear-gradient(9deg, rgba(196, 231, 245, 1) 0%, rgba(252, 254, 254, 1) 98%, rgba(255, 255, 255, 1) 100%);
+    padding: 0.5rem 0 5rem;
+}
+
+.s_cloud {
     width: 8%;
     margin-top: 3%;
 }
 
-.m_cloud{
+.m_cloud {
     width: 11%;
 }
 
-.l_cloud{
+.l_cloud {
     width: 18%;
     height: 13%;
     position: absolute;
@@ -28,7 +30,7 @@ body {
     top: 55%;
 }
 
-.r_cloud{
+.r_cloud {
     width: 18%;
     height: 11%;
     position: absolute;
@@ -36,14 +38,12 @@ body {
     top: 44%;
 }
 
-
-
 /* font-size 16px(static) = 100%(dinamic) = 1 em(dinamic)
   px * 6.25 = %   
   font-size is heritable --> parent size + child size
   rem --> root em , ignores inheritance
  */
-.profile_title{
+.profile_title {
     font-size: 4.124rem;
     margin-top: 1.37rem;
     font-family: 'Klee One', cursive;
@@ -51,13 +51,12 @@ body {
 
 }
 
-.am{
-    color: #33aff2 ;
+.am {
+    color: #33aff2;
     font-weight: normal;
-
 }
 
-.me{
+.me {
     font-size: 1.37rem;
     font-family: 'Special Elite', cursive;
     color: #33aff2;
@@ -67,52 +66,124 @@ body {
 
 }
 
-.tree{
+.tree {
     width: 33%;
     opacity: 0.9;
 }
 
-h2{
+.middle-container {
+    padding: 11% 0;
+    background: rgb(196, 231, 245);
+    background: linear-gradient(174deg, rgba(196, 231, 245, 1) 0%, rgba(255, 255, 255, 1) 90%, rgba(252, 254, 254, 1) 100%);
+}
+
+h2 {
     font-size: 1.37rem;
     margin-top: 0;
     font-family: 'Klee One', cursive;
-    color: #4DC5D6 ;
+    color: #4DC5D6;
 }
 
-p{
-    color: #29aed2;
-    font-family: 'Special Elite', cursive;
+p {
+    /* color: #29aed2; */
+    /* font-family: 'Special Elite', cursive; */
+    line-height: 1.5;
     text-align: left;
-
 }
 
-.profile_img{
+.profile_img {
     border-radius: 50%;
     width: 11%;
 }
 
-.skills_img {
-    border-radius: 50%;
-    width: 33%;
-
+.profile_txt,.contact-msg{
+    margin: 22px auto;
+    width: 44%;
 }
 
-.skill-row{
-    width: 50%;
-    margin: 100px auto 100px auto;
-    line-height: 2;
-
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    margin: 66px auto;
+    width: 6%;
 }
 
-a, h4{
-    color:  #8FB241;
+.skills_img1 {
+    border-radius: 100%;
+    float: left;
+    margin: auto 4% auto 22%;
+    width: 11%;
+}
+
+.skills_img2 {
+    border-radius: 100%;
+    float: right;
+    margin: auto 22% auto 4%;
+    width: 11%;
+}
+
+.skill-row {
+    margin: 44px auto 44px auto;
+}
+
+h4 {
+    color: #8FB241;
     font-family: 'Klee One', cursive;
-
 }
 
+.btn {
+    background: #4cbeeb;
+    background-image: -webkit-linear-gradient(top, #4cbeeb, #1c86ad);
+    background-image: -moz-linear-gradient(top, #4cbeeb, #1c86ad);
+    background-image: -ms-linear-gradient(top, #4cbeeb, #1c86ad);
+    background-image: -o-linear-gradient(top, #4cbeeb, #1c86ad);
+    background-image: linear-gradient(to bottom, #4cbeeb, #1c86ad);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Klee One', cursive;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #00cded;
+    background-image: -webkit-linear-gradient(top, #00cded, #2fd2eb);
+    background-image: -moz-linear-gradient(top, #00cded, #2fd2eb);
+    background-image: -ms-linear-gradient(top, #00cded, #2fd2eb);
+    background-image: -o-linear-gradient(top, #00cded, #2fd2eb);
+    background-image: linear-gradient(to bottom, #00cded, #2fd2eb);
+    text-decoration: none;
+  }
 
+.bottom-container {
+    background-color: rgb(196, 231, 245);
+    margin: 0;
+    padding: 3%;
+}
 
+a {
+    color: #56aacc;
+    text-decoration: none;
+    font-size: 122%;
+    padding: 1%;
+}
 
+a:hover {
+    color: white;
+}
+
+.copyright {
+    color: #56aacc;
+    font-size: 1rem;
+    margin: auto;
+    padding: 3%;
+    text-align: center;
+    width: 44%;
+}
 
 /* Options */
 /* 
