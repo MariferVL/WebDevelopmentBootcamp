@@ -1,15 +1,14 @@
 body {
     font-family: 'Montserrat-Black', sans-serif;
-
-
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 0;
+    overflow: hidden;
 }
 
 .navbar {
-    padding-bottom: 0 0 4.5rem;
+    padding: 0 0 6rem;
 }
 
 .navbar-brand {
@@ -32,12 +31,13 @@ body {
     margin: 5% 3% 5% 0;
 }
 
-h1 {
-    font-weight: bolder;
-    size: 3.3rem;
+h2 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 2..2rem;
     line-height: 1.5;
-    color: white;
+    padding: 11% 22% 1%;
 }
+
 
 h3 {
     font-family: 'Montserrat-Bold', sans-serif;
@@ -47,16 +47,27 @@ p {
     color: #8f8f8f;
 }
 
-
 .main_img {
     width: 55%;
-    transform: rotate(22deg);
+    transform: rotate(15deg) scale(1.25);
+    position: relative;
+    top: 22%;
+    left: 13%;
+    right: 11%;
+
 }
 
 /* font-family: 'Ubuntu', sans-serif; */
 
 #title {
     background-color: #ff4c68;
+}
+
+#title h1 {
+    font-weight: bolder;
+    size: 3.3rem;
+    line-height: 1.5;
+    color: white;
 }
 
 #features {
@@ -70,7 +81,7 @@ p {
 }
 
 .icon {
-    color: #ef8172  ;
+    color: #ef8172;
     font-size: 4.4rem;
     padding-bottom: 1rem;
 
@@ -78,4 +89,158 @@ p {
 
 .icon:hover {
     color: #ff4c68;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+    padding-top: 8%;
+}
+
+#testimonials p,
+h2 {
+    color: white;
+    font-weight: bolder;
+    padding: 0 8%;
+}
+
+.carousel-item {
+    padding: 3% 3% 8%;
+}
+
+#testimonials img {
+    width: 22% !important;
+    border-radius: 100%;
+    margin: 0 auto 1%;
+}
+
+#press {
+    background-color: #ef8172;
+    padding: 8%;
+    text-align: center;
+}
+
+
+#press img {
+    width: 22%;
+    padding: 3%;
+}
+
+.middle {
+    box-shadow: 0px 0px 30px -7px rgba(0, 0, 0, 0.29);
+}
+
+.plan-name {
+    letter-spacing: 2px
+}
+
+.price {
+    font-weight: 1000;
+    font-size: 3.5em;
+    color: #ef8172;
+}
+
+.btn-outline-primary {
+    color: #ff4c68;
+    border-color: #ff4c68;
+
+}
+
+.btn-primary {
+    color: white !important;
+    border-color: #ff4c68 !important;
+    background-color: #ff4c68 !important;
+
+}
+
+.btn-outline-primary:hover,
+.btn-primary:hover {
+    color: white !important;
+    border-color: #ff4c68 !important;
+    background-color: #ff4c68 !important;
+    outline-color: #ff4c68;
+}
+
+.btn-outline-primary:focus,
+.btn-primary:focus {
+    outline-color: #ff4c6762;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px #ff4c6762 !important;
+}
+
+.btn-outline-primary:active,
+.btn-primary:active {
+    outline-color: #ff4c6762 !important;
+    outline-style: solid;
+    background-color: #ff4c6762 !important;
+    border-color: #ff4c68 !important
+}
+
+#pricing span {
+    font-size: 20px;
+}
+
+.check {
+    color: #ff4c68 !important;
+    font-size: 222%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 8% 0 3%;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        padding: 0 0 3rem;
+    }
+
+    .main_img {
+        position: relative;
+        width: 55%;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 0 3rem;
+    }
+
+
+    .text-center {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .main_img {
+        left: 1%;
+    }
+
+    .col-lg-6 {
+        text-align: center;
+        padding: 0 8%;
+    }
+
+    .download-btn {
+        margin-left: 3%;
+    }
+
+
+    /* Elemento | file:///C:/Users/mfvl1/WebDevelopmentBootcamp/Boostrap-installation/index.html#footer */
+
+    .w-50 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
