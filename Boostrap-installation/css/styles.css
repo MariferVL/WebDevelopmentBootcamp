@@ -1,5 +1,32 @@
 body {
     font-family: 'Montserrat-Black', sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Main Layout */
+
+#title {
+    background-color: #ff4c68;
+}
+
+#title h1 {
+    color: white;
+    font-weight: bolder;
+    size: 3.3rem;
+    line-height: 1.5;
 }
 
 .container-fluid {
@@ -24,27 +51,10 @@ body {
 .nav-link {
     font-size: 1.1 rem;
     font-family: 'Montserrat-Light', sans-serif;
-
 }
 
 .download-btn {
     margin: 5% 3% 5% 0;
-}
-
-h2 {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 2..2rem;
-    line-height: 1.5;
-    padding: 11% 22% 1%;
-}
-
-
-h3 {
-    font-family: 'Montserrat-Bold', sans-serif;
-}
-
-p {
-    color: #8f8f8f;
 }
 
 .main_img {
@@ -54,21 +64,9 @@ p {
     top: 22%;
     left: 13%;
     right: 11%;
-
 }
 
-/* font-family: 'Ubuntu', sans-serif; */
-
-#title {
-    background-color: #ff4c68;
-}
-
-#title h1 {
-    font-weight: bolder;
-    size: 3.3rem;
-    line-height: 1.5;
-    color: white;
-}
+/* Features Section */
 
 #features {
     padding: 8% 13%;
@@ -76,7 +74,6 @@ p {
 
 .feature_box {
     padding: 0 6%;
-    text-align: center;
 
 }
 
@@ -91,22 +88,21 @@ p {
     color: #ff4c68;
 }
 
+/* Testimonials Section */
+
 #testimonials {
     background-color: #ef8172;
     color: white;
-    text-align: center;
-    padding-top: 8%;
+    /* padding-top: 8%; */
+    padding: 8% 11% 1%;
+
 }
 
 #testimonials p,
 h2 {
     color: white;
     font-weight: bolder;
-    padding: 0 8%;
-}
-
-.carousel-item {
-    padding: 3% 3% 8%;
+    margin-bottom: 3rem;
 }
 
 #testimonials img {
@@ -115,12 +111,22 @@ h2 {
     margin: 0 auto 1%;
 }
 
+.carousel-indicators {
+    margin-top: 0;
+}
+
+.carousel-item {
+    padding: 0 22% 0;
+    font-size: 2..2rem;
+    line-height: 1.5;
+}
+
+/* Press Section */
+
 #press {
     background-color: #ef8172;
     padding: 8%;
-    text-align: center;
 }
-
 
 #press img {
     width: 22%;
@@ -144,14 +150,12 @@ h2 {
 .btn-outline-primary {
     color: #ff4c68;
     border-color: #ff4c68;
-
 }
 
 .btn-primary {
     color: white !important;
     border-color: #ff4c68 !important;
     background-color: #ff4c68 !important;
-
 }
 
 .btn-outline-primary:hover,
@@ -177,21 +181,50 @@ h2 {
     border-color: #ff4c68 !important
 }
 
+/* Prices Section */
+
+#pricing {
+    padding: 8%;
+}
+
+#pricing li {
+    text-align: left;
+    margin-left: 29%;
+}
+
 #pricing span {
     font-size: 20px;
 }
 
 .check {
-    color: #ff4c68 !important;
-    font-size: 222%;
+    color: #ff4c68;
 }
+
+/* Download Section */
 
 #cta {
     background-color: #ff4c68;
-    text-align: center;
     color: white;
     padding: 8% 0 3%;
 }
+
+/* Footer Section */
+
+footer {
+    padding: 8%;
+}
+
+#footer p {
+    padding: 3% 0;
+}
+
+.contact-icon {
+    font-size: 3rem;
+    padding: 1%;
+    color: black
+}
+
+/* Responsive */
 
 @media (max-width: 992px) {
     .navbar {
@@ -203,21 +236,11 @@ h2 {
         width: 55%;
     }
 
-    .text-center {
-        text-align: center;
-    }
-
 }
-
 
 @media (max-width: 768px) {
     .navbar {
         padding: 0 0 3rem;
-    }
-
-
-    .text-center {
-        text-align: center;
     }
 
 }
@@ -228,7 +251,6 @@ h2 {
     }
 
     .col-lg-6 {
-        text-align: center;
         padding: 0 8%;
     }
 
@@ -236,8 +258,9 @@ h2 {
         margin-left: 3%;
     }
 
-
-    /* Elemento | file:///C:/Users/mfvl1/WebDevelopmentBootcamp/Boostrap-installation/index.html#footer */
+    #pricing li {
+        margin-left: 22%;
+    }
 
     .w-50 {
         margin-left: 0px;
