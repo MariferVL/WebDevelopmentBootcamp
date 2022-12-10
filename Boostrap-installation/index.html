@@ -26,38 +26,67 @@
 
   <section id="title">
 
-    <div class="container-fluid">
+    <div class="container-fluid main">
+
+      <!-- Navbar -->
+
       <nav class="navbar navbar-expand-md navbar-dark">
-        <a class="navbar-brand" href="">tindog</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav dropdown ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cta">Download</a>
-            </li>
-          </ul>
+        <div class="container-fluid ">
+          <a class="navbar-brand d-flex " href="#">tindog</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li> -->
+              <!-- <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn  btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
         </div>
       </nav>
-      <div class="row">
-        <div class="col-lg-6  col-md-6  col-sm-6 ">
-          <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fab fa-google-play"></i>
-            Download</button>
-        </div>
-        <div class="col-lg-6  col-md-6 col-sm-6">
-          <img class="main_img" src="images/iphone6.png" alt="iphone-mockup">
-        </div>
+
+      <!-- Main -->
+
+    <div class="row">
+      <div class="col-lg-6  col-md-6  col-sm-6 ">
+        <h1>Meet new and interesting dogs nearby.</h1>
+        <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i> Download</button>
+        <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fab fa-google-play"></i>
+          Download</button>
       </div>
+      <div class="col-lg-6  col-md-6 col-sm-6">
+        <img class="main_img" src="images/iphone6.png" alt="iphone-mockup">
+      </div>
+    </div>
     </div>
 
   </section>
@@ -238,7 +267,7 @@
   <!-- Footer -->
 
   <footer id="footer">
-    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter contact-icon"></i></a> 
+    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter contact-icon"></i></a>
     <a href="https://web.facebook.com/" target="_blank"><i class="fab fa-facebook contact-icon"></i></a>
     <a href="https://www.instagram.com/tindog__/" target="_blank"><i class="fab fa-instagram contact-icon"></i></a>
     <a href="mailto:info@tindog.com" target="_blank"><i class="fas fa-envelope contact-icon"></i></a>
