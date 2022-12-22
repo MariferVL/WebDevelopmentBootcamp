@@ -1,0 +1,11 @@
+.big-title {
+    font-size: 33 rem;
+    color: blueviolet;
+    font-family: fantasy;
+}
+
+.margin-50 {
+    margin: 50px;
+    /* color: #f58d0e; */
+
+}
