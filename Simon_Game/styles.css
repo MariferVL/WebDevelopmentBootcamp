@@ -18,7 +18,9 @@ body {
 
 .count-down {
   position: absolute;
-  left: 25%;
+  width: 33%;
+  left: 33%;
+  top: 28%;
 }
 
 .btn {
@@ -28,6 +30,8 @@ body {
   width: 133px;
   border: 10px solid #e3c12a;
   border-radius: 100%;
+  background-color: #e3c12a;
+
 }
 
 .game-over {
