@@ -1,0 +1,33 @@
+[
+    {
+        "packagingType": "PCS",
+        "description": "[REDACTED]",
+        "productCode": "MISC",
+        "freightClass": "300",
+        "insuranceValue": 2500,
+        "primaryReferenceNumber": null,
+        "poNumber": "[REDACTED]",
+        "skuNumber": "[REDACTED]",
+        "pluNumber": null,
+        "actualQuantity": 1,
+        "actualWeight": 132,
+        "actualWeightUnitOfMeasure": "Pounds",
+        "actualPallets": null,
+        "actualVolume": null,
+        "actualVolumeUnitOfMeasure": "Cubic Feet",
+        "actualPackagingLength": null,
+        "actualPackagingHeight": null,
+        "actualPackagingWidth": null,
+        "actualPackagingUnitOfMeasure": "Inches",
+        "referenceNumbers": [
+            {
+                "type": "OrderItemId",
+                "value": "987654321"
+            }
+        ],
+        "associatedStop": {
+            "pickSequenceNumber": null,
+            "dropSequenceNumber": null
+        }
+    }
+]
