@@ -17,7 +17,7 @@
 ## Projects
  <br/>
 
-<a href="https://marifervl.github.io/WebDevelopmentBootcamp/CSS-My%20Site%20copy/" target="_blank"!important>My Site 👩🏻‍💻</a>
+<a href="https://marifervl.github.io/WebDevelopmentBootcamp/CSS-My%20Site%20copy/" target="_blank">My Site 👩🏻‍💻</a>
 
 <a href="https://marifervl.github.io/WebDevelopmentBootcamp/Boostrap-installation/" target="_blank">Tindog 🐶💕</a>
 
