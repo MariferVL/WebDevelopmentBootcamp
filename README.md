@@ -14,15 +14,4 @@
 
 <br/>
 
-## Projects
- <br/>
 
-<a href="https://marifervl.github.io/WebDevelopmentBootcamp/CSS-My%20Site%20copy/" target="_blank">My Site 👩🏻‍💻</a>
-
-<a href="https://marifervl.github.io/WebDevelopmentBootcamp/Boostrap-installation/" target="_blank">Tindog 🐶💕</a>
-
-<a href="https://marifervl.github.io/WebDevelopmentBootcamp/Drum-Kit/" target="_blank">Dums Kit 🥁</a>
-
-<a href="https://marifervl.github.io/WebDevelopmentBootcamp/Simon_Game/" target="_blank">Simon Game 🟡🟢🔵🔴 </a>
-
-<a href="" target="_blank"></a>
